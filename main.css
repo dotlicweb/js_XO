@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.container {
+    width: 450px;
+    height: 450px;
+    margin: 50px auto;
+    box-shadow: 0 0 8px #ddd;
+    display: none;
+    flex-wrap: wrap;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    border: 1px solid #111;
+    background-color: #ade9ff;
+    line-height: 150px;
+    text-align: center;
+    font-size: 60px;
+    text-shadow: 0 0 20px #fff;
+    cursor: pointer;
+    user-select: none;
+}
+
+.chooseMove {
+    display: none;
+    width: 600px;
+    height: 600px;
+    box-shadow: 0 0 8px #ddd;
+    margin: 50px auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(106,215,255,1) 0%, rgba(172,234,255,1) 50%, rgba(106,215,255,1) 100%);
+}
+.chooseMove p {
+    display: flex;
+    font-size: 50px;
+    border: 1px solid #111;
+    padding: 10px 40px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: 0.3s ease all;
+    border-radius: 10px 25px;
+}
+.chooseMove h4, .chooseSymbol h4 {
+    font-size: 50px;
+}
+.chooseSymbol {
+    width: 600px;
+    height: 600px;
+    box-shadow: 0 0 8px #ddd;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(106,215,255,1) 0%, rgba(172,234,255,1) 50%, rgba(106,215,255,1) 100%);
+}
+
+.chooseSymbol p {
+    display: flex;
+    font-size: 50px;
+    border: 1px solid #111;
+    padding: 20px 40px;
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 10px 25px;
+    transition: 0.3s ease all;
+}
+.chooseSymbol p:hover, .chooseMove p:hover {
+    background: #fff;
+    border-radius: 0;
+}
+
+.btn {
+    text-align: center;
+    margin: 20px auto;
+    display: block;
+    background:#fff;
+    padding: 15px 45px;
+    border: 1px solid #111;
+    border-radius: 10px 25px;
+    transition: 0.3s ease all;
+    display: none;
+}
+.btn:hover {
+    cursor: pointer;
+    background: #ADE9FF;
+    border-radius: 0;
+}
+
