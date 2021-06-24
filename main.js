@@ -123,6 +123,3 @@ function createTable(){
     createBoxes();
 }
 
-
-// let names = ['asd','www'];
-// console.log(names.indexOf('ccc') === -1); //true! nema ga u nizu
